@@ -1,0 +1,137 @@
+body::-webkit-scrollbar {
+  width: .7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #777373f7;
+  outline: 1px solid slategrey;
+}
+.row {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+/* start navbar  */
+.head{
+    height: 500px;
+    background-image: url("../img/header.jpg");
+    background-size: cover
+}
+.head h1{
+    position: absolute;
+    font-family: cursive;
+    top: 80px;
+    left: 500px;
+    margin: 20px;
+
+}
+.head h6{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    color: #9a9794;
+}
+.head nav ul {
+   list-style: none;
+    display: inline-flex;
+    margin: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 230px;
+    background: black;
+    left: 220px;
+    border-radius: 20px;
+
+}
+.head nav ul a{
+    margin-right: 30px;
+    color: #a2a29f;
+    text-decoration: none;
+}
+.head nav ul a:hover{
+    color: white
+}
+.head nav ul .active{
+    color: white
+}
+.second{
+    margin: 30px
+}
+.second h2{
+        margin-top: 90px;
+    margin-bottom: 50px;
+    margin-right: 700px;
+}
+.second img{
+        border-radius: 20px;
+
+}
+.second p{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.second button{
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.second button:hover{
+    background: brown
+}
+.second .container{
+    width: 1200px
+}
+.three{
+    margin: 100px
+}
+.three .row{
+        width: 1200px;
+    text-align: start;
+}
+.three button{
+    width: 150px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+.three button:hover{
+    background: brown
+}
+.three ul{
+    list-style: none
+}
+.three ul li a{
+    color: red;
+line-height: 2;
+}
+.four{
+    background: black;
+    padding: 20px;
+    color: #827f7c;
+}
+.four p:hover{
+    color: white
+}
+.four h1{
+    color: white;
+    text-align: start;
+    font-family: cursive;
+    margin-bottom: 20px
+}
+.four ul{
+    list-style: none;
+    text-align: start;
+    margin-bottom: 50px
+}
+.four ul li a{
+    color: red;
+    text-align: start;
+line-height: 2;
+}
